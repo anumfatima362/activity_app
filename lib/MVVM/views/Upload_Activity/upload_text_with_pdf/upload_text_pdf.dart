@@ -21,7 +21,7 @@ class _UploadFilesState extends State<UploadFiles> {
 
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.amber,
         title: const Text('Upload PDF and Text'),
       ),
       body: Padding(

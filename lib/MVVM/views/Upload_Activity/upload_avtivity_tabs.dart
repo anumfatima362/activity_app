@@ -9,7 +9,7 @@ class UploadActivities extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.amber,
         title: const Text(
           'Upload Activities',
           style: TextStyle(

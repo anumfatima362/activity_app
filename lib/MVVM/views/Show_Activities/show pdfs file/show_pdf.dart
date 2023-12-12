@@ -31,7 +31,7 @@ class _ShowPDFsState extends State<ShowPDFs> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.amber,
         title: const Text('Pdfs'),
       ),
       body: FutureBuilder<List<Map<String, dynamic>>>(

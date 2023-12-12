@@ -15,7 +15,7 @@ class _UploadFileScreenState extends State<UploadFileScreen> {
     final controller = Provider.of<AddUserProvider>(context);
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.amber,
         title: const Text('File Upload Example'),
       ),
       body: Center(

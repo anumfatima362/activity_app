@@ -21,7 +21,7 @@ class _UploaTextState extends State<UploaText> {
 
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.amber,
         title: const Text(
           'Upload data to firebase ',
           style: TextStyle(color: Colors.white),

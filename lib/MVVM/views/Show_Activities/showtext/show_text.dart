@@ -16,10 +16,9 @@ class _ShowTextState extends State<ShowText> {
 
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.amber,
         title: const Text(
           'Show Text from Firebase',
-          style: TextStyle(color: Colors.white),
         ),
       ),
       body: FutureBuilder<List<Map<String, dynamic>>>(
@@ -41,8 +40,12 @@ class _ShowTextState extends State<ShowText> {
                   itemBuilder: (context, index) {
                     Map<String, dynamic> data = dataList[index];
                     return ListTile(
-                      title: Text('Field 1: ${data['field1']}'),
-                      subtitle: Text('Field 2: ${data['field 2']}'),
+                      title: Text(
+                        'Field 1: ${data['field1']}',
+                      ),
+                      subtitle: Text(
+                        'Field 2: ${data['field 2']}',
+                      ),
                     );
                   });
             }

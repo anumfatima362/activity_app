@@ -43,7 +43,7 @@ class _UploadUsersState extends State<UploadUsers> {
         Provider.of<AddUserProvider>(context);
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.amber,
         title: const Text(
           'Text with Images',
           style: TextStyle(

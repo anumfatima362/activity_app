@@ -8,11 +8,12 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.amber,
         title: const Center(
             child: Text(
           'Activity Plan',
           style: TextStyle(
+            color: Colors.black,
             fontWeight: FontWeight.w600,
           ),
         )),
@@ -29,14 +30,17 @@ class HomeScreen extends StatelessWidget {
                 },
                 child: Container(
                   height: 60,
-                  width: 150,
+                  width: 200,
                   decoration: const BoxDecoration(
-                      color: Colors.blue,
+                      color: Colors.amber,
                       borderRadius: BorderRadius.all(Radius.circular(8))),
                   child: const Center(
                       child: Text(
                     'UPLOAD',
-                    style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 24,
+                        fontWeight: FontWeight.bold),
                   )),
                 ),
               ),
@@ -49,15 +53,18 @@ class HomeScreen extends StatelessWidget {
                 },
                 child: Container(
                   height: 60,
-                  width: 150,
+                  width: 200,
                   decoration: const BoxDecoration(
-                    color: Colors.blue,
+                    color: Colors.amber,
                     borderRadius: BorderRadius.all(Radius.circular(8)),
                   ),
                   child: const Center(
                       child: Text(
                     'SHOW',
-                    style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 24,
+                        fontWeight: FontWeight.bold),
                   )),
                 ),
               ),

@@ -9,7 +9,7 @@ class ShowActivities extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.amber,
         title: const Text(
           'Show Activities',
           style: TextStyle(
