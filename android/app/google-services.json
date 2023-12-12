@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "690205440828",
+    "project_id": "activityplan-22963",
+    "storage_bucket": "activityplan-22963.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690205440828:android:0dd64d582c10105ffebc39",
+        "android_client_info": {
+          "package_name": "com.example.activity_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOwPgV5-v2RIYNkJLHRn6ZKUoKeYqZ7DM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
